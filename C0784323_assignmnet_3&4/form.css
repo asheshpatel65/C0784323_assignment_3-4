@@ -1,0 +1,57 @@
+body{
+		}
+		.class{
+			max-width: 625px;
+			margin: auto;
+			padding: 25px;
+            align-content: center;
+            background-color:aliceblue;
+		}
+		h1 {text-align: center;}
+		legend{text-align: center;}
+		}
+		input[type=text]{
+			width:150;
+		}
+		input[type=tel]{
+			width:95;
+		}
+		input[type=date]{
+			width:150;
+		}
+		input[type=submit] {
+  			width: 100;
+			background-color:white;
+			color: black;
+			cursor: pointer;
+		}
+		input[type=reset] {
+  			width: 100;
+			background-color:white;
+			color: black;
+			cursor: pointer;
+		}
+        header.page-header {
+         background:aliceblue;
+         height: 100px;
+         align-content:left;
+         color:black;
+         text-shadow:
+        }
+
+        img {
+	    height: 100px;
+        float: left
+        } 
+        #font{
+        font-family: monospace;
+        text-align: left;
+        font-size: 60px;
+        }
+        fieldset{
+	    float:center;
+	    width:60%;
+	    margin-left:auto;
+	    margin-right:auto;
+        }
+		

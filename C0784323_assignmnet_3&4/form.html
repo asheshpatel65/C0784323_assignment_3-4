@@ -1,0 +1,106 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="form.js">
+    <script type="text/javascript" src="form.js">
+    </script>
+</head>
+<body>
+<header class="page-header">
+    <div><img src="1.jpeg">
+    <h1 id="font"style="padding-top: 20px;">Ttour</h1></div>
+</header>
+
+<h1> Booking Form</h1>
+<div class="class">
+<form>
+	
+    <fieldset>
+    <legend>Personal Information:</legend>
+	
+    <label for="first_name">First Name: </label>
+		<input type="text" id="first_name" name="first_name" required><br><br>
+
+	<label for="last_name">Last Name: </label>
+		<input type="text" id="last_name" name="last_name" required><br><br>
+
+	<label for="gender">Gender: </label>
+		<input type="radio" id="gender" name="gender" value="male" required>Male 
+		<input type="radio" id="gender" name="gender" value="female" required>  Female<br><br><hr>
+	
+	<label for="contact_no">Cellphone Number: </label>
+		<input type="text" id="mobilenumber"  placeholder="000-000-0000">
+        <span id="messages" style="color: red;"> </span><br><br>
+    
+    <label for="email_id">Email-Id: </label>
+		<input type="email" id="email_id" name="email_id">
+        <span id="text"></span><br><br>
+    
+    <label for="address">Address: </label>
+         <input type="text" id="address" name="address" required><br><br>
+    
+    <label for ="city">City:</label>
+		<input type="text" name="city" id="city" required><br><br>
+        
+    <label for="province">Province:</label>
+                    <select id="province" name="province" required>
+                    <option value="alberta">Alberta</option>
+                    <option value="britshcolumbia">British Columbia</option>
+                    <option value="newbru">New Brunswick</option>
+                    <option value="newfound">Newfoundland and Labrador</option>
+                    <option value="novacotia">Nova Stotia</option>
+                    <option value="ontaro">Ontario</option>
+                    <option value="princei">Prince Edward Island</option>
+                    <option value="quebc">Quebec</option>
+                    <option value="sasktchwan">Saskatchwan</option>
+                    </select><br><br>
+
+   	<label for ="poscode">Postal Code:</label>
+     	 <input type="text" name="poscode" id="poscode" maxlength="6" required><br><br><hr>
+    </fieldset>
+    <fieldset>    
+	<legend>booking  Information:</legend>
+        
+        <label for ="province">From:</label>
+		<select id="province" name="province">
+                    <option value="alberta">Alberta</option>
+                    <option value="britshcolumbia">British Columbia</option>
+                    <option value="newbru">New Brunswick</option>
+                    <option value="newfound">Newfoundland and Labrador</option>
+                    <option value="novacotia">Nova Stotia</option>
+                    <option value="ontaro">Ontario</option>
+                    <option value="princei">Prince Edward Island</option>
+                    <option value="quebc">Quebec</option>
+                    <option value="sasktchwan">Saskatchwan</option>
+                    </select> <br>
+        <label for ="province">To:</label>
+		<select id="province" name="province">
+                    <option value="alberta">Alberta</option>
+                    <option value="britshcolumbia">British Columbia</option>
+                    <option value="newbru">New Brunswick</option>
+                    <option value="newfound">Newfoundland and Labrador</option>
+                    <option value="novacotia">Nova Stotia</option>
+                    <option value="ontaro">Ontario</option>
+                    <option value="princei">Prince Edward Island</option>
+                    <option value="quebc">Quebec</option>
+                    <option value="sasktchwan">Saskatchwan</option>
+                    </select><br><br>
+	
+        <label for="date_app">Choose First desired Date: </label>
+		<input type="date" id="date_app" name="date_app" min="2021-02-01"  required> <br><br>
+
+	   <label for="date_appt">Choose Second desired Date: </label>
+		<input type="date" id="date_appt" name="date_appt" min="2021-02-01" required> <br><br>
+	
+	
+     	<label for="app_time">Booking Time <small> (Open Time : 8 am - 4 pm)</small>:</label><input type="time" id="app_time" name="app_time" required>&nbsp;OR&nbsp;<input type="time" id="app_time" name="app_time" ><br><br>
+        
+        <p style="text-align: left;font-size: 11px;">We automatically collect IP addresses and Web site usage information from you when you visit our Web site. This information helps us evaluate how our visitors and customers use and navigate our Web site on an aggregate basis, including the number and frequency of visitors and customers to each Web page, and the length of their visits.</p>
+<input type="checkbox" name="checkbox" value="check" id="agree" required> I have read and agree to the Terms and Conditions and Privacy Policy<br>
+<input type="reset"> &nbsp; <input type="Submit" value="SUBMIT" onclick="return datatype()"><br>
+</fieldset>
+</form>
+</div>
+</body>
+</html>
